@@ -1,0 +1,381 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+/* common css desing */
+
+button{
+    cursor: pointer;
+}
+
+/* end common css desing */
+.navigation{
+    display: flex;
+    padding: 20px 40px;
+    margin: 0 auto;
+    gap: 60px;
+    color: #0b0736;
+    align-self: center;
+    & h1{
+        font-weight: bold;
+        font-size: 30px;
+
+    }
+    & div{
+        border: 1px solid gainsboro;
+        padding: 8px;
+        display: flex;
+        gap: 8px;
+        font-weight: 600;
+        border-radius: 5px;
+    }
+
+}
+.image1{
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: -1522;
+    width: 50dvw;
+
+}
+.hero-section{
+    padding: 120px 0;
+    margin-left: 147px;
+    & h2{
+        font-size: 90px;
+        color: #0b0736;
+        font-weight: 600;
+
+    }
+    & p{
+        color: #0b0736;
+        font-size: 30px;
+        margin-top: 12px;
+        align-content: center;
+    }
+    & div{
+        display: flex;
+        margin-top: 2px;
+        gap: 8px;
+        font-size: 22px;
+        margin-left: 2px;
+        align-items: center;
+
+    }
+    & button{
+        color: white;
+        background-color: #0b0736;
+        padding: 20px 30px;
+        border-radius: 10px;
+        margin-top: 20px;
+        font-size: 20px;
+
+
+    }
+}
+.target-section{
+    display: flex;
+    padding: 140px 50px;
+    align-items: center;
+    justify-content: center;
+
+}
+.targers-right{
+    margin-left: 50px;
+    width: 35%;
+    & h2{
+        font-size: 55px;
+        color: #0b0736;
+        font-weight: 600;
+
+    }
+    & .some-text{
+        margin-top: 50px;
+        color: gray;
+        font-size: 26px;
+    
+    }
+
+}
+.button-appstore{
+    cursor: pointer;
+    padding:11px 28px ;
+    margin-top: 50px;
+    border-radius: 10px;
+    border: none;
+    background-color:#cce8fd ;
+    & div{
+        display: flex;
+        gap: 12px;
+        font-weight: 600;
+        font-size:18px ;
+        color: #0b0736;
+        justify-items: start;
+        align-items: center;
+        
+
+    }
+    &div img{
+        width: 100%;
+        height: auto;
+
+    }
+    & div p span{
+        color: gray;
+        font-size: 12px;
+        
+    }
+}
+.Track-section{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 200px;
+
+}
+.track-right-dection{
+    background-image: url(images/bg\ 3.png);
+    position: absolute;
+    left: 0;
+    width: 100%;
+    background-repeat: no-repeat;
+    margin-top: 50px;
+    padding-left: 425px;
+    display: block;
+
+    & h2{
+        font-size: 86px;
+        font-weight: 700;
+        margin-top: -92px;
+        margin-left: -121px;
+    }
+}
+.banana-image{
+    margin-top: 60px;
+    & div img{
+        padding: 8px;
+    }
+}
+
+
+
+
+.track-left-dection{
+    width: 33%;
+    margin-left: 860px;
+    & .over{
+        color: #9393c4;
+        font-size: 40px;
+        margin-left: -50px;
+        font-weight: 900;
+    }
+    
+}
+.botom-section{
+   & .bottom1{
+    display: flex;
+    gap: 20px;
+    padding-top: 82px;
+    margin-left: -50px;
+   }
+}
+.balance{
+    margin-top: 10px;
+    & h2{
+        font-size: 24px;
+        font-weight: 600;
+    }
+    & p{
+        font-size: 20px;
+        font-weight: 400;
+        color: #9393c4;
+        padding-top: 20px;
+        max-width: 300px;
+
+    }
+}
+.section3{
+    display: block;
+    position: absolute;
+    padding: 500px;
+    display: flex;
+}
+.Calories-tracking{
+    margin-left: -104px;
+    
+    & h2{
+        font-size: 68px;
+        font-weight: 550;
+    }
+    & p{
+        font-size: 24px;
+        font-weight: 400px;
+        margin-top: 50px;
+        color: gray;
+    }
+    .button-appstore{
+       & P{
+        margin-top: 0;
+       }
+    }
+}
+.brakfrist{
+    margin-left: 100px;
+    width: 40%;
+    & img{
+        
+    }
+}
+
+.section4{
+    margin-top: 1305px;
+   
+   justify-items: center;
+
+   & div{
+    width: 60%;
+   }
+
+    & img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        justify-self: center;
+    }
+}
+.section5{
+    background-color: #d9f4ff;
+    width: 90%;
+    height: auto;
+    margin: 0% auto;
+    display: grid;
+    grid-template-columns: repeat(2 , minmax(0,1fr));
+    justify-items: center;
+    align-items: center;
+    margin-bottom: 50px;
+    border: none;
+    border-radius: 83px;
+
+}
+.section5text{
+    & h2{
+         font-size: 68px;
+         font-weight: 900;
+    }
+
+}
+.black-button{
+    background-color:#130F49 ;
+    margin-top: 20px;
+    & div{
+        
+        color: white;
+    }
+}
+footer{
+    margin-top: 100px;
+    justify-self: center;
+    color: #9393c4;
+    margin-bottom: 20px;
+}
+
+/* mobile responsive code */
+
+@media (max-device-width: 767px) {
+
+    .navigation{
+   
+    padding: 10px 20px;
+   
+    gap: 20px;
+    color: #0b0736;
+    align-self: center;
+    & h1{
+        
+        font-size: 20px;
+
+    }
+    & div{
+        
+        padding: 5px;
+        display: flex;
+        gap: 8px;
+        
+    }
+
+}
+.hero-section{
+    padding: 50px 0;
+    margin-left: 20px;
+    & h2{
+        font-size: 40px;
+        
+    }
+    & p{
+        
+        font-size: 20px;
+        margin-top: 10px;
+        
+    }
+
+    }
+    & button{
+     
+      
+        padding: 10px 10px;
+        border-radius: 10px;
+        margin-top: 2px;
+        font-size: 20px;
+
+
+    }
+}
+.target-section{
+    display: block;
+    padding: 140px 50px;
+    align-items: center;
+    justify-content: center;
+
+}
+.targers-right{
+    margin-left: 0px;
+    width: 100%;
+    & h2{
+        font-size: 40px;
+       
+        
+
+    }
+    & .some-text{
+        margin-top: 1px
+        font-size: 18px;
+    
+    }
+
+}
+.button-appstore{
+    
+    padding:20px 40px ;
+    margin-top: 20px;
+    
+}
+.Track-section{
+    display: block;
+    justify-content: center;
+    margin-bottom: 0px;
+
+}
+.track-right-dection{
+    background-image: url(images/bg\ 3.png);
+    position: absolute;
+    left: 0;
+    width: 80%;
+    background-repeat: no-repeat;
+    margin-top: 50px;
+    padding-left: 425px;
+    display: block;
